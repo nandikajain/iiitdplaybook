@@ -5,6 +5,8 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { StateProvider } from "./StateProvider";
 import reducer, { initialState } from "./reducer";
+import 'bootstrap/dist/css/bootstrap.css';
+import 'font-awesome/css/font-awesome.min.css';
 
 ReactDOM.render(
   <React.StrictMode>

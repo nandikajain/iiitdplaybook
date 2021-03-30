@@ -49,6 +49,10 @@ function App() {
   const Nostalgia = React.lazy(() =>
     import('./Components/Nostalgia/Nostalgia')
   );
+  const DiscussionForum = React.lazy(() =>
+  import('./Components/DiscussionForum/DiscussionForum')
+);
+
 
   toast.configure();
   const notify = () =>
@@ -164,6 +168,11 @@ function App() {
                     <Route path='/supplies'>
                       <Suspense fallback={<Spinner />}>
                         <Supplies />
+                      </Suspense>
+                    </Route>
+                    <Route path='/discussion'>
+                      <Suspense fallback={<Spinner />}>
+                        <DiscussionForum />
                       </Suspense>
                     </Route>
                     <Route path='/nostalgia'>
