@@ -86,14 +86,14 @@ function DiscussionForum()
 
 
         <div className="row moderator pt-2 pb-2">
-          <div className="col-1 d-none d-sm-block pr-0 mr-0">
+          <div className="col-1 d-none d-sm-block ">
             <Avatar alt="Remy Sharp" src="https://picsum.photos/200/300?random=5" />
           </div>
           <div className="col-1 d-none d-sm-block d-md-none">
 
           </div>
 
-          <div className="col-md-11 col-sm-10 col-12 pl-0 mr-0">
+          <div className="col-md-11 col-sm-10 col-12 ">
             <form onSubmit={handleSubmit}>
             <textarea
               className="w-100"
