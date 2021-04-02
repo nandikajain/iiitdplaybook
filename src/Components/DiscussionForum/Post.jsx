@@ -55,11 +55,11 @@ function Post(props)
             <div className="row">
               <div className="col-12 pb-3">
                 <AvatarGroup max={3}>
-                  <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-                  <Avatar alt="Travis Howard" src="/static/images/avatar/2.jpg" />
-                  <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
-                  <Avatar alt="Agnes Walker" src="/static/images/avatar/4.jpg" />
-                  <Avatar alt="Trevor Henderson" src="/static/images/avatar/5.jpg" />
+                  <Avatar alt="Remy Sharp" src="https://picsum.photos/200/300?random=1" />
+                  <Avatar alt="Travis Howard" src="https://picsum.photos/200/300?random=2" />
+                  <Avatar alt="Cindy Baker" src="https://picsum.photos/200/300?random=3" />
+                  <Avatar alt="Agnes Walker" src="https://picsum.photos/200/300?random=4" />
+                  <Avatar alt="Trevor Henderson" src="https://picsum.photos/200/300?random=5" />
                 </AvatarGroup>
               </div>
               <div className="col-12">

@@ -20,8 +20,32 @@
     text-align:left;
 }
 /* Landing Page */
+.moderator{
+    background-color: #EFEFEF;
+    box-shadow:0 2px 4px 0 rgba(0, 0, 0, 0.2);
+
+}
+.ask{
+    background-color: #C4C4C4;
+    color:black;
+    border-radius: 10px;
+    font-weight: 500;
+
+}
+
 .heading{
     font-size: 48px;
+}
+textarea {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+textarea {
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #efefef;
 }
 
 .card-shadow {
